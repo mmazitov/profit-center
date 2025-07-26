@@ -1,0 +1,29 @@
+.app-container {
+	max-width: 420px;
+	margin: 40px auto;
+	padding: 32px 24px;
+	background: #f8fafc;
+	border-radius: 18px;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.07);
+}
+
+.app-navigation {
+	display: flex;
+	gap: 10px;
+}
+
+.stats-block {
+	margin-top: 20px;
+	padding: 20px 18px;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.04);
+	font-size: 1.08rem;
+	color: #222;
+}
+
+.stats-block p {
+	margin: 0 0 8px 0;
+	padding: 0;
+	line-height: 1.6;
+}

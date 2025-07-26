@@ -1,0 +1,48 @@
+{
+	"name": "profit-center",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint .",
+		"preview": "vite preview",
+		"test": "jest --config=jest.config.js --setupFilesAfterEnv=./tests/setupTests.js"
+	},
+	"dependencies": {
+		"jest-environment-jsdom": "^30.0.5",
+		"prop-types": "^15.8.1",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"devDependencies": {
+		"@babel/eslint-parser": "^7.28.0",
+		"@babel/plugin-syntax-jsx": "^7.27.1",
+		"@babel/preset-env": "^7.28.0",
+		"@babel/preset-react": "^7.27.1",
+		"@eslint/js": "^9.30.1",
+		"@testing-library/dom": "^10.4.0",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/react": "^16.3.0",
+		"@vitejs/plugin-react": "^4.7.0",
+		"babel-jest": "^30.0.5",
+		"eslint": "^9.30.1",
+		"eslint-config-prettier": "^10.1.5",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"eslint-plugin-prettier": "^5.5.3",
+		"eslint-plugin-react": "^7.37.5",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.20",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"globals": "^16.3.0",
+		"jest": "^30.0.5",
+		"prettier": "^3.6.2",
+		"vite": "^7.0.4"
+	}
+}
